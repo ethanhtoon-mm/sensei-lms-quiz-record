@@ -26,7 +26,7 @@ function track_user_quiz_attempt($user_id, $quiz_id, $grade)
         $correct_answer = get_post_meta($question_id, '_question_right_answer', true);
 
         // Check if the answer is incorrect or missing
-        if (!isset($quizform_ans[$question_id]) || empty($quizform_ans[$question_id]) || $quizform_ans[$question_id] !== $correct_answer) {
+        if ( get_post_status($question_id) === 'publish' && (!isset($quizform_ans[$question_id]) || empty($quizform_ans[$question_id]) || $quizform_ans[$question_id] !== $correct_answer) ) {
             // Store the question ID and the user's answer (if provided) for incorrect questions
             $incorrect_questions[] = [
                 'question_id' => $question_id,

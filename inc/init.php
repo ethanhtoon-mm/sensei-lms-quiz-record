@@ -15,7 +15,7 @@ function add_quizr_menu(){
         'sensei',
         'Quiz Attempt Records',
         'Quiz Records',
-        'manage_options',
+        'manage_quizr_records',
         'quizr-dash',
         'display_quizr_dash'
     );
@@ -28,3 +28,15 @@ function handle_csv_export(){
     }
 }
 add_action('init','handle_csv_export');
+
+function allowed_widget(){
+    $role = get_role('editor');
+    if($role){
+        $role->add_cap('manage_quizr_records');
+    }
+    $admin_role = get_role('administrator');
+    if ($admin_role) {
+        $admin_role->add_cap('manage_quizr_records');
+    }
+}
+add_action('init','allowed_widget');
