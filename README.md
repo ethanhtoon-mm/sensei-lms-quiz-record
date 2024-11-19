@@ -1,57 +1,67 @@
+=== Sensei Quiz Records with ACF ===
+Contributors: ethanhtoon  
+Tags: sensei lms, acf, quiz records, lms plugin, wordpress dashboard  
+Requires at least: 5.6  
+Tested up to: 6.4  
+Stable tag: 0.1  
+Requires PHP: 7.4  
+License: GPLv2 or later  
+License URI: https://www.gnu.org/licenses/gpl-2.0.html  
 
-# Sensei Quiz Records with ACF  
+A plugin to display quiz attempt records for users under Sensei LMS in the WordPress Dashboard using ACF.
 
-A WordPress plugin that enhances Sensei LMS by tracking and displaying quiz attempt records for users directly in their dashboard. This plugin integrates seamlessly with Advanced Custom Fields (ACF) to store and manage quiz-related metadata, offering an improved learning experience.  
+== Description ==
 
-## Features  
+Sensei Quiz Records with ACF is a WordPress plugin designed to enhance Sensei LMS by adding a feature to log and display users' quiz attempts directly in their dashboard. The plugin leverages Advanced Custom Fields (ACF) for flexible metadata management, enabling administrators to customize quiz-related data effortlessly.  
 
-- **Quiz Attempt Records**: Logs and displays users' quiz attempts in the dashboard.  
-- **Integration with ACF**: Leverages ACF for flexible data management and customization.  
-- **User-Friendly Interface**: Designed with a clean and intuitive interface for administrators and learners.  
-- **Seamless Sensei LMS Integration**: Built specifically to enhance Sensei LMS functionalities.  
+### Key Features:
+* Display quiz attempt records in the user dashboard.  
+* Integration with Advanced Custom Fields (ACF) for custom metadata.  
+* Designed specifically for Sensei LMS compatibility.  
+* User-friendly and efficient interface for administrators and learners.  
 
-## Installation  
+### Installation:
+1. Download the plugin from this repository or the WordPress Plugin Directory.  
+2. Upload the plugin folder to `/wp-content/plugins/` in your WordPress directory.  
+3. Activate the plugin from the **Plugins** menu in WordPress.  
+4. Ensure Sensei LMS and ACF plugins are installed and activated.  
 
-<ol>
-  <li>Download the plugin files from this repository.</li>
-  <li>Upload the folder to your WordPress site in the <code>/wp-content/plugins/</code> directory.</li>
-  <li>Activate the plugin via the Plugins menu in WordPress.</li>
-  <li>Ensure that Sensei LMS and ACF plugins are installed and activated for full functionality.</li>
-</ol>
+### Usage:
+* Navigate to the user dashboard in Sensei LMS.  
+* View quiz attempt records under the "Quiz Records" section.  
+* Customize metadata fields via ACF if needed.  
 
-## Usage
+== Frequently Asked Questions ==
 
-<ol>
-  <li>Navigate to the user dashboard in Sensei LMS.</li>
-  <li>View quiz attempt records under the dedicated <strong>Quiz Records</strong> section.</li>
-  <li>Use ACF to customize the metadata fields if additional data points are required.</li>
-</ol>
+= What plugins are required for this to work? =
 
-## Compatibility
+You need to have both Sensei LMS and Advanced Custom Fields (ACF) plugins installed and activated.  
 
-<ul>
-  <li><strong>WordPress:</strong> Version 5.6 or higher</li>
-  <li><strong>Sensei LMS:</strong> Version 4.0 or higher</li>
-  <li><strong>Advanced Custom Fields:</strong> Version 5.9 or higher</li>
-</ul>
+= Does this plugin modify existing Sensei LMS quizzes? =
 
-## Contributing
+No, it only tracks and displays quiz attempt records. It does not modify the quiz structure or functionality.
 
-<ol>
-  <li>Fork this repository.</li>
-  <li>Create a new branch for your feature or bug fix.</li>
-  <li>Submit a pull request with detailed notes about your changes.</li>
-</ol>
+== Screenshots ==
 
-## Support
+1. **Dashboard View**: Displays quiz attempt records with metadata.  
+2. **ACF Integration**: Customize data fields using ACF.  
 
-For any issues or feature requests, please open an issue in this repository. I'm appreciate your feedback!
+== Changelog ==
 
-## Keywords
+= 0.1 =
+* Initial release.  
+* Added basic integration with Sensei LMS and ACF.  
 
--   Sensei LMS Plugin
--   WordPress Quiz Records
--   Advanced Custom Fields Integration
--   User Quiz Dashboard
--   WordPress LMS Plugin
+== Upgrade Notice ==
+
+= 0.1 =
+Initial release. Install and activate to begin tracking quiz attempts.
+
+== A brief Markdown Example ==
+
+Here's an example of how the plugin helps:  
+
+1. Add custom metadata fields to quizzes using ACF.  
+2. Display users' quiz attempt records in a structured and clear way.  
+3. Improve user engagement and track progress with ease.
 
