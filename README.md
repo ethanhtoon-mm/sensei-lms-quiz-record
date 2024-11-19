@@ -1,5 +1,6 @@
 === Sensei Quiz Records with ACF ===
 Contributors: ethanhtoon  
+Donate link: https://github.com/ethanhtoon-mm/
 Tags: sensei lms, acf, quiz records, lms plugin, wordpress dashboard  
 Requires at least: 5.6  
 Tested up to: 6.4  
